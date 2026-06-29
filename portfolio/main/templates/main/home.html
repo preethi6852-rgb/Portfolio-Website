@@ -1,0 +1,85 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+
+<!-- HOME SECTION -->
+<section id="home" style="min-height:90vh; display:flex; align-items:center; justify-content:center; text-align:center; padding:2rem;">
+    <div>
+        <h1 style="font-size:3rem; color:#89b4fa;">Hi, I'm <span style="color:#a6e3a1;">Preethi</span> 👋</h1>
+        <p style="font-size:1.3rem; margin-top:1rem; color:#cdd6f4;">Python Developer Intern</p>
+        <p style="font-size:1rem; margin-top:1rem; color:#6c7086; max-width:600px; margin-left:auto; margin-right:auto;">
+            Passionate about building real-world Python applications. Currently interning and learning Django, Tkinter, APIs and more.
+        </p>
+        <a href="#projects" style="display:inline-block; margin-top:2rem; padding:0.8rem 2rem; background:#89b4fa; color:#1e1e2e; border-radius:8px; text-decoration:none; font-weight:bold;">
+            View My Projects ↓
+        </a>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" style="padding:4rem 2rem; max-width:900px; margin:auto;">
+    <h2 style="font-size:2rem; color:#89b4fa; margin-bottom:2rem; text-align:center;">👤 About Me</h2>
+    <p style="color:#cdd6f4; font-size:1rem; line-height:1.8; text-align:center;">
+        Hi, I'm Preethi, a Python Developer Intern passionate about building desktop and web applications.
+        I enjoy solving real-world problems using Python and its powerful libraries like Django and Tkinter.
+    </p>
+
+    <h3 style="margin-top:2.5rem; color:#a6e3a1; margin-bottom:1rem;">🛠️ Skills</h3>
+    <div style="display:flex; flex-wrap:wrap; gap:0.8rem;">
+        <span style="background:#313244; color:#cdd6f4; padding:0.4rem 1rem; border-radius:20px; font-size:0.9rem;">Python</span>
+        <span style="background:#313244; color:#cdd6f4; padding:0.4rem 1rem; border-radius:20px; font-size:0.9rem;">Django</span>
+        <span style="background:#313244; color:#cdd6f4; padding:0.4rem 1rem; border-radius:20px; font-size:0.9rem;">Tkinter</span>
+        <span style="background:#313244; color:#cdd6f4; padding:0.4rem 1rem; border-radius:20px; font-size:0.9rem;">HTML</span>
+        <span style="background:#313244; color:#cdd6f4; padding:0.4rem 1rem; border-radius:20px; font-size:0.9rem;">CSS</span>
+        <span style="background:#313244; color:#cdd6f4; padding:0.4rem 1rem; border-radius:20px; font-size:0.9rem;">JSON</span>
+        <span style="background:#313244; color:#cdd6f4; padding:0.4rem 1rem; border-radius:20px; font-size:0.9rem;">CSV</span>
+        <span style="background:#313244; color:#cdd6f4; padding:0.4rem 1rem; border-radius:20px; font-size:0.9rem;">REST APIs</span>
+        <span style="background:#313244; color:#cdd6f4; padding:0.4rem 1rem; border-radius:20px; font-size:0.9rem;">Git</span>
+        <span style="background:#313244; color:#cdd6f4; padding:0.4rem 1rem; border-radius:20px; font-size:0.9rem;">VS Code</span>
+    </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects" style="padding:4rem 2rem; max-width:1000px; margin:auto;">
+    <h2 style="font-size:2rem; color:#89b4fa; margin-bottom:2rem; text-align:center;">💼 My Projects</h2>
+    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:1.5rem;">
+
+        <div style="background:#313244; padding:1.5rem; border-radius:12px; border-top:4px solid #a6e3a1;">
+            <h3 style="color:#a6e3a1;">🗂️ Automated File Organizer</h3>
+            <p style="color:#6c7086; margin-top:0.5rem; font-size:0.9rem;">A Tkinter GUI app that organizes virtual files into categories. Saves data using JSON.</p>
+            <p style="margin-top:1rem; font-size:0.8rem; color:#89b4fa;">Python • Tkinter • JSON</p>
+        </div>
+
+        <div style="background:#313244; padding:1.5rem; border-radius:12px; border-top:4px solid #89b4fa;">
+            <h3 style="color:#89b4fa;">🌤️ Weather App</h3>
+            <p style="color:#6c7086; margin-top:0.5rem; font-size:0.9rem;">A CLI app that fetches real-time weather and 3-day forecast using Open-Meteo API. No API key needed.</p>
+            <p style="margin-top:1rem; font-size:0.8rem; color:#89b4fa;">Python • requests • JSON • API</p>
+        </div>
+
+        <div style="background:#313244; padding:1.5rem; border-radius:12px; border-top:4px solid #fab387;">
+            <h3 style="color:#fab387;">💰 Expense Tracker</h3>
+            <p style="color:#6c7086; margin-top:0.5rem; font-size:0.9rem;">A Tkinter GUI app to track daily expenses with category filters, bar chart summary and CSV/JSON export.</p>
+            <p style="margin-top:1rem; font-size:0.8rem; color:#89b4fa;">Python • Tkinter • CSV • JSON</p>
+        </div>
+
+        <div style="background:#313244; padding:1.5rem; border-radius:12px; border-top:4px solid #cba6f7;">
+            <h3 style="color:#cba6f7;">🌐 Portfolio Website</h3>
+            <p style="color:#6c7086; margin-top:0.5rem; font-size:0.9rem;">A personal portfolio website built with Django showing all internship projects, skills and contact info.</p>
+            <p style="margin-top:1rem; font-size:0.8rem; color:#89b4fa;">Python • Django • HTML • CSS</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" style="padding:4rem 2rem; max-width:600px; margin:auto; text-align:center;">
+    <h2 style="font-size:2rem; color:#89b4fa; margin-bottom:1rem;">📬 Contact Me</h2>
+    <p style="color:#6c7086; margin-bottom:2rem;">Feel free to reach out for any opportunities!</p>
+
+    <div style="background:#313244; padding:2rem; border-radius:12px; text-align:left;">
+        <p style="margin-bottom:1rem;">📧 <span style="color:#a6e3a1;">preethi@email.com</span></p>
+        <p style="margin-bottom:1rem;">📍 <span style="color:#cdd6f4;">Chennai, Tamil Nadu, India</span></p>
+    </div>
+</section>
+
+{% endblock %}
