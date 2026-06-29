@@ -88,7 +88,7 @@ Portfolio-Website/
     │   ├── wsgi.py             # WSGI configuration
     │   └── asgi.py             # ASGI configuration
     ├── manage.py               # Django management tool
-    └── README.md               # Project documentation
+    
 ```
 
 ---
