@@ -87,7 +87,7 @@ Portfolio-Website/
     │   ├── urls.py             # Root URL configuration
     │   ├── wsgi.py             # WSGI configuration
     │   └── asgi.py             # ASGI configuration
-    ├── manage.py               # Django management tool
+    └── manage.py               # Django management tool
     
 ```
 
